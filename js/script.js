@@ -1,6 +1,5 @@
 /*Method loadData to fetch data from all the sources according to input city provided by user*/
 
-
 function loadData() {
 
     var $body = $('body');
@@ -50,6 +49,7 @@ function loadData() {
     var wikiURL = "http://en.wikipedia.org/w/api.php?action=opensearch&search=" + cityStr
                 + "&format=json&callback=wikicallback";
 
+    //to understand the use of jsonp
     $.ajax({
         url: wikiURL,
         dataType: 'jsonp',
