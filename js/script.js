@@ -1,3 +1,5 @@
+/*Method loadData to fetch data from all the sources according to input city provided by user*/
+
 
 function loadData() {
 
@@ -68,7 +70,5 @@ function loadData() {
 
 $('#form-container').submit(loadData);
 
-// loadData();
 
 
-//cbd70979b64299864c406d5728d1d082:1:73982500
