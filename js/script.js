@@ -23,8 +23,6 @@ function loadData() {
                             + address + '';
     $body.append('<img class="bgimg" src=" ' + streetviewUrl +  '">');
 
-    // YOUR CODE GOES HERE!
-
     var apiKey = 'cbd70979b64299864c406d5728d1d082:1:73982500'
     
     var nytURL = 'http://api.nytimes.com/svc/search/v2/articlesearch.json?q='
